@@ -16,3 +16,14 @@ So, this is the original version, as any project you should start with a brute f
 The first thing you should put in every python file is the shebang so the system knows the interpreter it should use to execute them, and the encoding (so if they put something like an accent in a comment the system doesn't crash) . these two lines of code, must be in the first two lines of every python file.
 
 ![Image](img/sheBangEncoding.png "shebang encoding command image")
+
+## create the classes and objects
+
+After we see the system working, let's start with the most fundamental part, creating class and objects
+
+So the first things that we’ll do is move all the logic from the main python file to the class that should carry out the task of sending to event hubs those records coming through the api call
+
+
+![Image](img/sequentialCode_1.png.png "sequential Code_1 command image")
+
+![Image](img/sequentialCode_2.png.png "sequential Code_2 command image")
