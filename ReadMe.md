@@ -24,6 +24,11 @@ After we see the system working, let's start with the most fundamental part, cre
 So the first things that we’ll do is move all the logic from the main python file to the class that should carry out the task of sending to event hubs those records coming through the api call
 
 
-![Image](img/sequentialCode_1.png.png "sequential Code_1 command image")
+![Image](img/sequentialCode_1.png "sequential Code_1 command image")
 
-![Image](img/sequentialCode_2.png.png "sequential Code_2 command image")
+![Image](img/sequentialCode_2.png "sequential Code_2 command image")
+
+Now in the main python we only tell the class sender to do his job, also, remove every commented code, in order to store past versions of the code we use version control systems like git.
+
+![Image](img/addedClass.png "added the class and object command image")
+
