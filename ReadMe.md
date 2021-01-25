@@ -10,3 +10,9 @@ So, this is the original version, as any project you should start with a brute f
 
 ![Image](img/originalVersion.png "original version command image")
 
+
+## add the shebang and the encoding
+
+The first thing you should put in every python file is the shebang so the system knows the interpreter it should use to execute them, and the encoding (so if they put something like an accent in a comment the system doesn't crash) . these two lines of code, must be in the first two lines of every python file.
+
+![Image](img/sheBangEncoding.png "shebang encoding command image")
