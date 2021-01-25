@@ -32,3 +32,13 @@ Now in the main python we only tell the class sender to do his job, also, remove
 
 ![Image](img/addedClass.png "added the class and object command image")
 
+
+## variables that are not been used should be deleted
+
+Another thing we should fix in this code is the presence of variables that are not been used, so that's memory been wasted.Notice how these variable name does not appear anywhere in the system. Using ctrl f in vs code (and a regular expression that look for the literal match of several variable names  -----> server|database|username|password|driver ) show us where those names appear.
+
+![Image](img/variablesNotUsed.png "variables not used command image")
+
+![Image](img/variablesAlreadyDeleted.png "variables already deleted command image")
+
+
