@@ -41,4 +41,42 @@ Another thing we should fix in this code is the presence of variables that are n
 
 ![Image](img/variablesAlreadyDeleted.png "variables already deleted command image")
 
+## git diff
+
+I mean sure, you can see the plus a minus symbol but we both know that a graphical interface make out life easier
+
+![Image](img/gitDiff.png "git Diff command image")
+
+## merge conflict resolution
+
+Something that may happen to you when you are colaborating with partners in a repository is the fact that both of you make changes in the same line so git does not know how to combine the versions of the file, that why it ask which of the two changes should make it to the final version. That is why we see one change in green the other one in blue, for the first button "accept current change" would ignore the changes than you friend made, "accept incomming change" would ignore your changes and the other would left both of them
+
+![Image](img/mergeConflictResolution.png "merge conflict resolution command image")
+
+## create a properties file to avoid hard coding connection strings
+
+![Image](img/beforePropertiesFile.png "before Properties File")
+
+![Image](img/afterPropertiesFile.png "after Properties File")
+
+The location of the properties file itself should be passed as an argument to the main python file
+
+![Image](img/propertiesFileHardCoded.png "properties File Hard Coded")
+
+For that task python has the args library, where we can describe every argument. If you ever needed to know how to execute some program you know how useful the "someprogram -h" flag is.
+
+![Image](img/receivingArguments.png "receiving Arguments")
+
+Pass the argument in the program execution section of the dockerfile
+
+![Image](img/passingArguments.png "passing Arguments")
+
+And remove the hardcoded section from the code
+
+![Image](img/removeHardCodeConnection.png "passing Arguments")
+
+Check that everything continue working and do the git commit
+
+
+
 
