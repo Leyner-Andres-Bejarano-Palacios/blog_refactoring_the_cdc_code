@@ -77,6 +77,13 @@ And remove the hardcoded section from the code
 
 Check that everything continue working and do the git commit
 
+## everything should be a class, including the program layer
+
+To accomplish our goal of an extensible cdc python solution it should be easy to modify only the specific piece that we targeting.  As you can see we have a lot of different type of code in out main file, we have utilities (code not specific of a class but useful for several classes like the property file reader and the arguments reader), we have out api in here and also we have the starting point of our code in here. So let's create some classes to organize this mess.
+
+![Image](img/beforeAddingLayers.png "passing Arguments")
 
 
+As a result, we have a cleaner main file.
 
+![Image](img/cleanerMainFile.png "cleaner Main File")
